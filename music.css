@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(182, 178, 178);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main section{
+    width: 22%;
+    background-image: linear-gradient(to right bottom,purple,orange);
+    border-radius: 5px;
+    position: relative;
+}
+main section marquee{
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 700;
+}
+main section img{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+main section #songDuration{
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+main section #songVolume{
+    width: 25%;
+    margin-left: 2rem;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: white;
+}
+i:active{
+    color: rgb(227, 64, 64);
+
+}
+audio{
+    display: none;
+}
